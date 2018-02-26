@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  PushAnimation
 //
 //  Created by UVIONICS on 26/02/18.
@@ -8,18 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func buttonActionPop(_ sender: Any) {
 
+        self.dismiss(animated: true, completion: nil)
+    }
 
 }
-
